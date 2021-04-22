@@ -41,7 +41,7 @@
         </div>
       </div>
       <div class="col text-center">
-        <img :src="`http://openweathermap.org/img/wn/${weatherData.weather[0].icon }@2x.png`">
+        <img :src="`https://openweathermap.org/img/wn/${weatherData.weather[0].icon }@2x.png`">
       </div>
     </template>
     <template v-else>
